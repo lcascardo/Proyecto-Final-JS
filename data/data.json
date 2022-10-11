@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "nombre": "Procesador Intel Core i9 12900KF 5.2GHz Turbo Socket 1700",
+        "categoria": "Procesador",
+        "marca": "Intel",
+        "precio": 134850,
+        "img": "producto1.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Procesador Intel Core i7 12700K 5.0GHz Turbo Socket 1700",
+        "categoria": "Procesador",
+        "marca": "Intel",
+        "precio": 109500,
+        "img": "producto2.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Procesador AMD Ryzen 9 5950X 4.9GHz Turbo AM4",
+        "categoria": "Procesador",
+        "marca": "AMD",
+        "precio": 157750,
+        "img": "producto3.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Procesador AMD Ryzen 9 5900X 4.8GHz Turbo AM4",
+        "categoria": "Procesador",
+        "marca": "AMD",
+        "precio": 115250,
+        "img": "producto4.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Placa de Video ASUS GeForce RTX 3090 24GB GDDR6X ROG STRIX GAMING White OC",
+        "categoria": "Placa de Video",
+        "marca": "Asus",
+        "precio": 391150,
+        "img": "producto5.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Placa de Video MSI GeForce RTX 3090 24GB GDDR6X GAMING X TRIO",
+        "categoria": "Placa de Video",
+        "marca": "MSI",
+        "precio": 359900,
+        "img": "producto6.png"
+    },
+    {
+        "id": 7,
+        "nombre": "Mother Gigabyte Z590 Aorus Ultra Socket 1200 10th Gen",
+        "categoria": "Motherboard",
+        "marca": "Gigabyte",
+        "precio": 75850,
+        "img": "producto7.png"
+    },
+    {
+        "id": 8,
+        "nombre": "Mother ASUS ROG STRIX Z590-I GAMING WIFI",
+        "categoria": "Motherboard",
+        "marca": "Asus",
+        "precio": 66070,
+        "img": "producto8.png"
+    },
+    {
+        "id": 9,
+        "nombre": "Gabinete Cooler Master COSMOS C700M ARGB E-ATX",
+        "categoria": "Gabinete",
+        "marca": "Cooler Master",
+        "precio": 110590,
+        "img": "producto9.png"
+    },
+    {
+        "id": 10,
+        "nombre": "Gabinete Thermaltake V200 Tempered Glass Ryzen Edition",
+        "categoria": "Gabinete",
+        "marca": "Thermaltake",
+        "precio": 8290,
+        "img": "producto10.png"
+    }
+]
