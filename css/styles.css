@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* ---------------BARRA DE NAVEGACION--------------- */
+
 .navbar {
     background-color: #5B7AE9;
     height: 30vh;
@@ -34,12 +36,17 @@
 
 .navbar form input {
     width: 80%;
-    height: 30px;
+    height: 40px;
+    padding-left: 40px;
+    border: solid #213888;
 }
 
 .navbar form button {
     width: 20%;
-    height: 30px;
+    height: 40px;
+    background-color: #fff;
+    border:solid #213888;
+    font-weight: bolder;
 }
 
 /* ------------------SECCION FILTROS---------------- */
@@ -50,15 +57,35 @@ aside {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 10px 0;
+    height: 100vh;
+}
+
+aside h3 {
+    font-size: 20px;
+    align-self: center;
 }
 
 .formulario {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin: 10px;
+    align-items: flex-end;
+    
+}
+
+.formulario div label {
+    padding: 0px 20px;
+    font-size: 16px;
+}
+
+.formulario label {
+    align-self: center;
+    font-size: 20px;
+}
+
+.formulario input {
+    align-self: center;
 }
 
 .formulario button {
@@ -67,17 +94,30 @@ aside {
     cursor: pointer;
 }
 
+.boton {
+   cursor: pointer; 
+   width: 100px;
+   height: 30px;
+   color: #fff;
+   background-color: #5B7AE9;
+   border: none;
+   border-radius: 4px;
+   
+}
+
 /* -----------SECCION PRODUCTOS--------- */
 
 .contenedor-productos {
     display: flex;
-
+    height: 100vh;
 }
 
 main {
     width: 70%;
+    height: 100vh;
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
+    
 }
 
 .productos {
@@ -92,8 +132,31 @@ main {
     display: flex;
     flex-direction: column;
     width: 200px;
-    border: solid black 2px;
-    background-color: wheat;
+    border: solid #213888;
+    background-color: rgb(202, 202, 202);
+    padding: 10px 0;
+    justify-content: space-around;
+}
+
+.card h3 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.card p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.card button {
+    cursor: pointer;
+    background-color: #4e69ce;
+    color: #fff;
+    border: none;
+    padding: 4px;
+    font-weight: 700;
+
 }
 
 /* --------------SECCION CARRITO-------------- */
@@ -108,7 +171,21 @@ main {
     gap: 20px;
     left: 5000px;
     transition: 1s linear;
-    
+}
+
+.carrito p {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.carrito-total button {
+    padding: 10px;
+    font-weight: bolder;
+    margin: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 20px;
 }
 
 .moverCarrito {
@@ -116,11 +193,31 @@ main {
 }
 
 .carritoCard {
+    padding: 10px;
     display: flex;
     flex-direction: column;
     width: 250px;
-    border: solid black 2px;
-    background-color: chartreuse;
+    border: solid #213888 4px;
+    background-color: #D9D9D9;
+    justify-content: flex-end;
+}
+
+.carritoCard h3 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.carritoCard p {
+    text-align: center;
+    color: #000;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.carritoCard button {
+    padding: 5px;
+    font-weight: bolder;
+    cursor: pointer;
 }
 
 .activeBtnFinalizarCompra {
@@ -148,20 +245,37 @@ main {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    height: 100vh;
+    
+}
+
+.finalizar-compra h2 {
+    padding: 20px;
 }
 
 .finalizar-compra form {
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 
 .finalizar-compra form label {
     align-self: center;
+    padding: 10px 0;
+    font-weight: 600;
 }
 
 .finalizar-compra form h4 {
     align-self: center;
+    padding: 10px;
+}
+
+.finalizar-compra button {
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bolder;
+    border: solid #213888;
+    background-color: #D9D9D9;
+    border-radius: 10px;
 }
 
 
@@ -203,10 +317,8 @@ main {
 
 /* SECCION ERROR DE VALIDACION DE FORMULARIO */
 .aviso-error {
+    text-align: center;
     color: #d11515;
+    font-weight: bolder;
 }
 
-.error-formulario {
-    border: #d11515 solid;
-    color: #d11515;
-}

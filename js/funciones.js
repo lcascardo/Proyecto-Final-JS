@@ -41,8 +41,8 @@ function renderizarCarrito() {
         </div>`;
     })
 
-    carritoDiv.innerHTML += `<p>Total: $<span>${totalCarrito(carrito)}</span></p>
-    <button id="btnFinalizarCompra">Comprar</button>`;
+    carritoDiv.innerHTML += `<div class="carrito-total"><p>Total: $<span>${totalCarrito(carrito)}</span></p>
+    <button id="btnFinalizarCompra">Comprar</button></div>`;
     carritoTitulo();
     activeBtnFinalizarCompra();
     btnFinalizarCompra();
